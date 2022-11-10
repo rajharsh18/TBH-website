@@ -161,7 +161,7 @@ def YTAlgo(link):
     # 
     if per > 30:
         val = classify(video_key)
-        ret = ('\n' + video_details[0]['Title'] + "\n\nThe Video is Educational.\n\n") + val
+        ret = ('\n' + video_details[0]['Title'] + "\n\nThe Video is Educational \n\n") + val
         return (ret)
     else:
         ret = ('\n' + video_details[0]['Title'] + "\n\nThe Video is Not Educational.\n\n")
@@ -178,4 +178,4 @@ def result():
     result = YTAlgo(link)
     return render_template("index.html", name = result)
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
