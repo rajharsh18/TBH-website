@@ -176,7 +176,7 @@ def check(video_key):
         ret = ("\n\nThe Video is Educational ") + val
         return (ret)
     else:
-        ret = ("\n\nThe Video is Not Educational.")
+        ret = ("The Video is Not Educational.")
         return (ret)
 
 
@@ -186,9 +186,18 @@ def result():
     output = request.form.to_dict()
     # print(output)
     link = output["name"]
-    result = Title(link)
-    video_key = VIDEO_KEY(link)
-    result2 = check(video_key)
-    return render_template("index.html", name = result, name2 = result2)
+    try:
+        result = Title(link)
+        video_key = VIDEO_KEY(link)
+        result2 = check(video_key)
+        if (result2 == "The Video is Not Educational."):
+            return render_template("index.html", name = result, name2 = result2)
+        else:
+            return render_template("index.html", name = result, name3 = result2) 
+    except:
+        err = "You have not entered a YouTube Video Link !!!!"
+        return render_template("index.html", name2 = err)
+    
+    
 if __name__ == "__main__":
     app.run(debug=False, host='0.0.0.0')
