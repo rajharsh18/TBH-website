@@ -19,9 +19,14 @@
 
     {% if name %}
       <center>
-        <h3 style="color: blue;" class="let_space">{{name}}</h3>
+        <h3 style="color: rgb(255, 255, 0);" class="let_space">{{name}}</h3>
       </center>
-      
+    {% endif %}
+
+    {% if name2 %}
+      <center>
+        <h3 style="color: rgb(255, 0, 0);" class="let_space">{{name2}}</h3>
+      </center>
     {% endif %}
     <input type="text" id="name" name="name" placeholder="Enter the link...">
     <center><input class="file_submit" type="Submit"></center>
