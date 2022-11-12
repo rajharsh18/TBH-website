@@ -1,7 +1,7 @@
 # Hack2Educate-GenZ
 ![Image not Found !!](icon.png?raw=true "Title")
 
-[![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)](https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link)       [![Website](https://img.shields.io/badge/Website-red)](https://joimjwoewl.execute-api.us-east-2.amazonaws.com/) 
+[![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)](https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link  target="_blank")       [![Website](https://img.shields.io/badge/Website-red)](https://joimjwoewl.execute-api.us-east-2.amazonaws.com/  target="_blank" ) 
 # Team GenZ
 
 ### The Team Members of GenZ are:
@@ -47,7 +47,7 @@ Paste it in the app.py file
 ![Image not Found !!](pic1.jpg?raw=true "Title")
 
 ```
-Rrun the app.py file
+Run the app.py file
 ```
 ```
 The webpage will be opened on your localserver
