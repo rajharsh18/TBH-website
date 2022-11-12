@@ -1,5 +1,6 @@
 # Hack2Educate-GenZ
 
+[![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)](https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link) [![Website](https://img.shields.io/badge/Website-red)](https://joimjwoewl.execute-api.us-east-2.amazonaws.com/) 
 # Team GenZ
 
 ### The Team Members of GenZ are:
@@ -27,6 +28,7 @@
 - Creation of Dataset
     - Data was extracted from approximately 1.5 Lakh YouTube videos from 45 different channels.
     - Separation of educational and non-educational keyword was done so that it can be checked if the video is educational or not.
+    
 - Algorithm
     1. To classifying the video as educational or non-educational.
         - We extracted the title and description of a YouTube video using its link.
