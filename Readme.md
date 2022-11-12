@@ -14,18 +14,18 @@
     - Accuracy: 90%+ on a custom dataset that will be provided after proof of concept.
     - Should be able to run in near-real-time on a server.
 ## Problem solving approach:-
-    -Used Natural Language Programming to solve this problem
-    -First step was to create a dataset of educational and non-educational words, for that description
+    - Used Natural Language Programming to solve this problem
+    - First step was to create a dataset of educational and non-educational words, for that description
     and title of several YouTube videos from different channels were extracted and punctuations, emoji
     and links were removed and then remaining keywords were classified into the categories mentioned
     above.
-    -Now to check whether the video is educational or not, the video is first imported and then its title
+    - Now to check whether the video is educational or not, the video is first imported and then its title
     and description is extracted. Further punctuations, emoji, links and non-educational words are
     removed and from the remaining words it is checked that how many words are educational and
     percentage of educational word is calculated using the dataset. If the percentage is above certain
     number then the video is declared to be non-educational.
 ## Final demo
-    -The final outcome of the project is a website where link of any YouTube video can be pasted and a
+    - The final outcome of the project is a website where link of any YouTube video can be pasted and a
     result will be displayed on the page to show if the video is educational or not.
 ## Index
     - Project 1
