@@ -118,6 +118,12 @@ def classify(video_key):
 
 
 # Final Algorithm
+def VD(link):
+    video= []
+    # 
+    YTvideo (link, video)
+    return video[0]
+
 def Title(link):
     video_ids = []
     # 
@@ -190,14 +196,17 @@ def result():
         result = Title(link)
         video_key = VIDEO_KEY(link)
         result2 = check(video_key)
+        video_id = VD(link)
+        link1 ="https://www.youtube.com/embed/"+video_id
         if (result2 == "The Video is Not Educational."):
-            return render_template("index.html", name = result, name2 = result2)
+            return render_template("index.html", name = result, name2 = result2, link1=link1)
         else:
-            return render_template("index.html", name = result, name3 = result2) 
+            return render_template("index.html", name = result, name3 = result2, link1=link1) 
     except:
         err = "You have not entered a YouTube Video Link !!!!"
         return render_template("index.html", name2 = err)
     
     
 if __name__ == "__main__":
+    # app.run(debug=True)
     app.run(debug=False, host='0.0.0.0')
