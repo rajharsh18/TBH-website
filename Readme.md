@@ -1,6 +1,6 @@
 # Hack2Educate-GenZ
-
-[![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)](https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link) [![Website](https://img.shields.io/badge/Website-red)](https://joimjwoewl.execute-api.us-east-2.amazonaws.com/) 
+![Image not Found !!](icon.png?raw=true "Title")
+[![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)](https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link)       [![Website](https://img.shields.io/badge/Website-red)](https://joimjwoewl.execute-api.us-east-2.amazonaws.com/) 
 # Team GenZ
 
 ### The Team Members of GenZ are:
@@ -10,17 +10,51 @@
 - Rahul Kumar Mishra
 ## We are working on an AI/ML theme.
 - We will be given a Youtube video and then our tasks are following :-
-- Determine if it is an educational video or not.
-- Determine which category or subcategory of BE it would belong to.
+    - Determine if it is an educational video or not.
+    - Determine which category or subcategory of BE it would belong to.
 - Accuracy: 90%+ on a custom dataset that will be provided after proof of concept.
 - Should be able to run in near-real-time on a server.
 ## Problem solving approach:-
 - Used Natural Language Programming to solve this problem
 - First step was to create a dataset of educational and non-educational words, for that description and title of several YouTube videos from different channels were extracted and punctuations, emoji and links were removed and then remaining keywords were classified into the categories mentioned above.
 - Now to check whether the video is educational or not, the video is first imported and then its title and description is extracted. Further punctuations, emoji, links and non-educational words are removed and from the remaining words it is checked that how many words are educational and percentage of educational word is calculated using the dataset. If the percentage is above certain number then the video is declared to be non-educational.
+
+### PREREQUISITES
+* Python 3.x
+* pip3
+* flask
+
+### CLONE
+```
+git clone https://github.com/rajharsh18/Hack2Educate-GenZ
+```
+### RUNNING
+```
+cd Hack2Educate-GenZ
+```
+```
+cd TBH-Website
+```
+```
+pip install -r requirements.txt
+```
+```
+create a YouTube v3 API key
+Paste it in the app.py file
+```
+
+![Image not Found !!](pic1.jpg?raw=true "Title")
+
+```
+run the app.py file
+```
+```
+The webpage will be opened on your localserver
+```
+
 ## Final demo
-- The final outcome of the project is a website where link of any YouTube video can be pasted and a result will be displayed on the page to show if the video is educational or not.
-## Index
+- The final outcome of the project will be a website where link of any YouTube video can be pasted and a result will be displayed on the page to show if the video is educational or not.
+## Procedure
 - Project 1
     - To learn how to use Application Programming Interface (API) to extract some data of YouTube
         channels and videos.
