@@ -1,6 +1,7 @@
 html,body{
-    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('bg.jpg'); */
-	background-color:rgb(255, 199, 245) ;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url('bg.jpg');
+	background-size: cover;
+	background-position-x: center;
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -15,7 +16,7 @@ header{
 	background-size:cover;
 	position: relative;
 	background-attachment: fixed;
-	background-color: aqua;
+
 }
 nav{
 	width: 100%;
@@ -26,15 +27,16 @@ nav{
 	align-items: center;
 	padding: 0px 80px;
 	position:fixed;
-	top:0;
-	background:rgb(252, 188, 255);
-	border-bottom: 3px solid rgb(0, 0, 0);
+	top: 0px;
+	/* background:rgb(252, 188, 255); */
+	/* border-bottom: 3px solid rgb(0, 0, 0); */
 
 }
 
 .logo{
 	font-family: sans-serif;
 	font-size:2em;
+	color: aliceblue;
 }
 .logo span{
 	color: #e74c3c;
@@ -145,10 +147,13 @@ footer{
 	margin-top:1px;
 	color:#112D32;
 	font-weight: bold;
-	background-color:#50f3ff;
+	background-color:#7ef4fdd7;
 	text-align: right;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
   }
-  
+.copyright{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

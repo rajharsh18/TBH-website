@@ -40,14 +40,14 @@ cd TBH-Website
 pip install -r requirements.txt
 ```
 ```
-create a YouTube v3 API key
+Create a YouTube v3 API key
 Paste it in the app.py file
 ```
 
 ![Image not Found !!](pic1.jpg?raw=true "Title")
 
 ```
-run the app.py file
+Rrun the app.py file
 ```
 ```
 The webpage will be opened on your localserver
