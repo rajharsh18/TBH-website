@@ -1,8 +1,7 @@
 # Hack2Educate-GenZ
 ![Image not Found !!](icon.png?raw=true "Title")
 
-<a href="https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link" target="_blank">![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)</a>
-<a href="https://joimjwoewl.execute-api.us-east-2.amazonaws.com/" target="_blank">![Website](https://img.shields.io/badge/Website-red)</a>
+[![Demo Badge](https://img.shields.io/badge/Watch-Demo-red)](https://drive.google.com/file/d/1YBxndHcH_EQZGdp0i-c7Q3odCvtGDsUA/view?usp=share_link)       [![Website](https://img.shields.io/badge/Website-red)](https://joimjwoewl.execute-api.us-east-2.amazonaws.com/)
 # Team GenZ
 
 ### The Team Members of GenZ are:
